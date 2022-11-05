@@ -210,42 +210,6 @@ def avant():
  
 def avastbrowser():
  webbrowser.open('https://www.avast.com/secure-browser#pc')
- 
-def ghostlie():
- webbrowser.open('https://sourceforge.net/projects/ghostlie/')
- 
-def lightfirefox():
- webbrowser.open('https://sourceforge.net/projects/lightfirefox/')
- 
-def briskbard():
- webbrowser.open('https://www.briskbard.com/index.php?lang=en&pageid=featweb')
- 
-def chedot():
- webbrowser.open('https://landing.chedot.com/')
-
-def chromodo():
- webbrowser.open('https://help.comodo.com/topic-72-1-623-7595-.html#cd_starting')
- 
-def bittube():
- webbrowser.open('https://bittube.app/')
- 
-def cryptotab():
- webbrowser.open('https://cryptobrowser.site/en/')
- 
-def operaneon():
- webbrowser.open('https://www.opera.com/browsers/neon')
- 
-def urbrowser():
- webbrowser.open('https://www.ur-browser.com/en-US')
- 
-def viasat():
- webbrowser.open('https://browser.viasat.com/')
- 
-def kinza():
- webbrowser.open('https://www.kinza.jp/en/')
- 
-def sleipnir():
- webbrowser.open('https://www.fenrir-inc.com/jp/sleipnir/')
 
 ################## CONFIG
 
@@ -270,8 +234,6 @@ bbrowsers.add_command(label = 'basilisk', command = basilisk)
 bbrowsers.add_command(label = 'blisk', command = blisk)
 bbrowsers.add_command(label = 'beaker', command = beaker)
 bbrowsers.add_command(label = 'baidu', command = baidu)
-bbrowsers.add_command(label = 'briskbard', command = briskbard)
-bbrowsers.add_command(label = 'bittube', command = bittube)
 
 ################## C
 
@@ -285,10 +247,7 @@ cbrowsers.add_command(label = 'cent', command = cent)
 cbrowsers.add_command(label = 'comodo dragon', command = comododragon)
 cbrowsers.add_command(label = 'comodo ice dragon', command = comodoicedragon)
 cbrowsers.add_command(label = 'cyberfox', command = cyberfox)
-cbrowsers.add_command(label = 'citrio', command = citrio)
-cbrowsers.add_command(label = 'chedot', command = chedot)
-cbrowsers.add_command(label = 'chromodo', command = chromodo)
-cbrowsers.add_command(label = 'cryptotab', command = cryptotab)
+cbrowsers.add_command(label = 'citrio', command = citrio))
 
 ################## D
 
@@ -313,7 +272,6 @@ fbrowsers.add_command(label = 'falkon', command = falkon)
 
 gbrowsers = Menu(menubar, tearoff=1)
 gbrowsers.add_command(label = 'ghost', command = ghost)
-gbrowsers.add_command(label = 'ghostlie', command = ghostlie)
 
 ################## H
 
@@ -330,13 +288,11 @@ jbrowsers = Menu(menubar, tearoff=1)
 ################## K
 
 kbrowsers = Menu(menubar, tearoff=1)
-kbrowsers.add_command(label = 'kinza', command = kinza)
 
 ################## L
 
 lbrowsers = Menu(menubar, tearoff=1)
 lbrowsers.add_command(label = 'librewolf', command = librewolf)
-lbrowsers.add_command(label = 'light firefox', command = lightfirefox)
 
 ################## M
 
@@ -359,7 +315,6 @@ obrowsers.add_command(label = 'opera beta', command = operabeta)
 obrowsers.add_command(label = 'opera dev', command = operadev)
 obrowsers.add_command(label = 'opera crypto', command = operacrypto)
 obrowsers.add_command(label = 'opera gx', command = operagx)
-obrowsers.add_command(label = 'opera neon', command = operaneon)
 obrowsers.add_command(label = 'otter', command = otter)
 obrowsers.add_command(label = 'osiris', command = osiris)
 
@@ -383,7 +338,6 @@ sbrowsers = Menu(menubar, tearoff=1)
 sbrowsers.add_command(label = 'seamonkey', command = seamonkey)
 sbrowsers.add_command(label = 'superbrowse', command = superbrowse)
 sbrowsers.add_command(label = 'sidekick', command = sidekick)
-sbrowsers.add_command(label = 'sleipnir', command = sleipnir)
 
 ################## T
 
@@ -394,8 +348,7 @@ tbrowsers.add_command(label = 'tungsten', command = tungsten)
 ################## U
 
 ubrowsers = Menu(menubar, tearoff=1)
-ubrowsers.add_command(label = 'ungoogled chromium', command = ungoogledchromium)
-ubrowsers.add_command(label = 'ur browser', command = urbrowser)
+ubrowsers.add_command(label = 'ungoogled chromium', command = ungoogledchromium))
 
 ################## V
 
