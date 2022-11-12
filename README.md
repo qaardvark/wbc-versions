@@ -1,4 +1,2 @@
-# wbc-versions
-web browser center / wbc versions.
-
+# tvalist past versions
 https://github.com/atheodog/wbc
